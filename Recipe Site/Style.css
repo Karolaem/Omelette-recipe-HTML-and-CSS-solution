@@ -1,0 +1,174 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(236, 224, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+
+.recipe {
+    background-color: white;
+    width: 600px;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 7px;
+}
+@font-face {
+    font-family: "YoungSeriff";
+    src: url(youngserif-regular-webfont.woff) format("woff");
+}
+.recipe-info {
+    margin-top: 20px;
+}
+.recipe .recipe-info h1 {
+    font-family: YoungSeriff;
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Outfit-variableFont";
+    src: url(Outfit-Thin.woff2) format("woff2");
+}
+.recipe .recipe-info p {
+    font-family: Outfit-variableFont;
+    margin-top: 20px;
+    font-weight: 600;
+    color: rgb(100, 99, 99);
+    font-size: small;
+}
+
+.recipe .purple-info{
+    margin-top: 20px;
+    width: 540px;
+    background-color: rgba(252, 228, 255, 0.6);
+    border-radius: 7px;
+    padding-bottom: 10px;
+}
+
+.recipe .purple-info p{
+    padding: 10px;
+    font-family: Outfit-variableFont;
+    margin: 10px;
+    color: rgb(88, 36, 76);
+    font-weight:600;
+    font-size:medium;
+}
+
+.recipe .purple-info ul{
+    font-family: Outfit-variableFont;
+    margin-left: 50px;
+}
+
+.recipe .purple-info ul li {
+    color:rgb(100, 99, 99) ;
+    padding-left: 10px;
+    font-weight:600;
+    font-size: small;
+    padding-bottom: 10px;
+}
+.recipe .purple-info ul li strong {
+    color:rgb(100, 99, 99);
+    padding-left: 10px;
+    font-weight:inherit;
+    font-size: small;
+}
+
+.recipe .purple-info ul li::marker{
+    color: rgb(88, 36, 76);
+}
+
+.recipe .ingridients h2 {
+    padding-top:50px ;
+    font-family: YoungSeriff;
+    color: rgb(131, 56, 33);
+    padding-bottom: 15px;
+    font-weight: 200;
+}
+
+.recipe .ingridients ul li {
+    padding-left: 10px;
+    color: rgb(100, 99, 99);
+    font-weight: 600;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+}
+.recipe .ingridients ul li::marker{
+    color:rgb(131, 56, 33);
+}
+
+.recipe .ingridients ul {
+    font-family: Outfit-variableFont;
+    margin-left: 50px;
+}
+
+.recipe .instructions h2 {
+    padding-top:50px ;
+    font-family: YoungSeriff;
+    color: rgb(131, 56, 33);
+    padding-bottom: 15px;
+    font-weight: 200;
+}
+
+.recipe .instructions ol li {
+    padding-left: 10px;
+    color: rgb(100, 99, 99);
+    font-family: Outfit-variableFont;
+    margin-left: 50px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: small;
+}
+.recipe .instructions ol li::marker{
+    color:rgb(131, 56, 33);
+    font-weight: bold;
+}
+
+.calories-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line{
+    margin-top: 40px;
+}
+
+.recipe .nutrition h2{
+    padding-top:50px ;
+    font-family: YoungSeriff;
+    color: rgb(131, 56, 33);
+    padding-bottom: 15px;
+    font-weight: 200;
+}
+.recipe .nutrition p{
+    color: rgb(100, 99, 99);
+    font-family: Outfit-variableFont;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: small;
+}
+
+.recipe .table .calories-info{
+    color: rgb(100, 99, 99);
+    font-family: Outfit-variableFont;
+    font-weight: bold;
+    font-size: small;
+    
+}
+
+.recipe .table .calories-info strong{
+    color: rgb(131, 56, 33);
+    margin-right: 200px;
+    padding-bottom: 15px;
+
+}
